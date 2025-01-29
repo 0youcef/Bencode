@@ -114,11 +114,3 @@ class Encoder:
     def _encode_bytes(self):
         return (str(len(self.data))+self.TOKEN_STR+str(self.data)).encode()
 
-
-
-with open('./archlinux-2024.12.01-x86_64.iso.torrent','rb') as f:
-    tor=f.read()
-    torrent=Decoder(tor).decode()
-
-ls=[{'a':343}]
-print(Decoder(Encoder(ls).encode()).decode())
