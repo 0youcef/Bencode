@@ -1,5 +1,4 @@
 from collections import OrderedDict
-from os import sched_yield
 
 
 class Decoder:
