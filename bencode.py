@@ -113,4 +113,3 @@ class Encoder:
         return str(len(self.data)).encode()+self.TOKEN_STR.encode()+self.data.encode()
     def _encode_bytes(self):
         return (str(len(self.data))+self.TOKEN_STR+str(self.data)).encode()
-
