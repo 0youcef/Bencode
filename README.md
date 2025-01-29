@@ -47,4 +47,4 @@ This project is licensed under the MIT License. See `LICENSE` for details. 📝
 
 ## 👤 Author
 
-[Your Name](https://github.com/0youcef) ✨
+[0youcef](https://github.com/0youcef) ✨
